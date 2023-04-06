@@ -1,0 +1,24 @@
+*{
+    background-color:rgb(233,233,233);
+}
+
+
+QPushButton{
+    border:3px solid #B8B8B8;
+    border-radius: 5px;
+    height:50px;
+}
+
+QPushButton:hover{
+    border:3px solid #FF595C;
+    background-color:#FF595C;
+    color:white;
+}
+
+QLineEdit{
+    border:3px solid #C4C4C4;
+}
+
+QLineEdit:hover{
+    background-color:white;
+}

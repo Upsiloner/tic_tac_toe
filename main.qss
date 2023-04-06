@@ -1,0 +1,54 @@
+*{
+    background-color:rgb(233,233,233);
+}
+
+
+
+#widget{
+    background-color: #FFFFFF;
+    border:5px solid #D4D4D4;
+    border-radius: 10px;
+}
+
+QWidget > myLabel{
+    border:5px solid #B8B8B8;
+    border-radius: 5px;
+}
+QWidget > myLabel:hover{
+    background-color:#d9d9d9
+}
+
+
+QWidget > QPushButton{
+    border:5px solid #B8B8B8;
+    border-radius: 5px;
+    height:50px;
+}
+
+QWidget > QPushButton:hover{
+    border:5px solid #FF6568;
+    background-color:#A1A1A1;
+    color:white;
+}
+
+//--------------------
+QMessageBox {
+    background-color: #F0F0F0 !important;
+    border: 1px solid #A0A0A0 !important;
+    width:1000px !important;
+}
+//----------------
+
+QStatusBar>QLabel {
+    color:#808080
+}
+
+
+
+
+
+
+
+
+
+
